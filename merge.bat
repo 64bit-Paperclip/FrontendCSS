@@ -42,6 +42,7 @@ for %%f in (%files%) do (
     )
 )
 
+css-minify -f frontend.css -o /
 
 echo.
 echo Combined files into "%output%"
