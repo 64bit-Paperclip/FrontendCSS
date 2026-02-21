@@ -1,0 +1,111 @@
+/*==============================================================================
+ *  Transitions
+ *============================================================================*/
+
+/* ---------- Base Utilities ---------- */
+
+.transition-none {
+  transition: none;
+}
+
+.transition-all {
+  transition: var(--transition-all);
+}
+
+.transition-bg {
+  transition: var(--transition-bg);
+}
+
+.transition-color {
+  transition: var(--transition-color);
+}
+
+.transition-border {
+  transition: var(--transition-border);
+}
+
+.transition-opacity {
+  transition: opacity var(--transition-duration-medium) var(--transition-ease);
+}
+
+.transition-transform {
+  transition: transform var(--transition-duration-medium) var(--transition-ease);
+}
+
+/* ---------- Duration Utilities ---------- */
+
+.transition-fast {
+  transition-duration: var(--transition-duration-fast);
+}
+
+.transition-medium {
+  transition-duration: var(--transition-duration-medium);
+}
+
+.transition-slow {
+  transition-duration: var(--transition-duration-slow);
+}
+
+/* ---------- Easing Utilities ---------- */
+
+.ease-linear {
+  transition-timing-function: linear;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+/* ---------- Transform Hover Helpers ---------- */
+
+.hover-scale-up:hover {
+  transform: scale(1.05);
+  transition: transform var(--transition-duration-medium) var(--transition-ease);
+}
+
+.hover-scale-down:hover {
+  transform: scale(0.95);
+  transition: transform var(--transition-duration-medium) var(--transition-ease);
+}
+
+.hover-rotate:hover {
+  transform: rotate(3deg);
+  transition: transform var(--transition-duration-medium) var(--transition-ease);
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  transition: transform var(--transition-duration-medium) var(--transition-ease);
+}
+
+/* ---------- Opacity Hover Helpers ---------- */
+
+.hover-fade:hover {
+  opacity: 0.8;
+  transition: opacity var(--transition-duration-medium) var(--transition-ease);
+}
+
+/* ---------- Combined Motion Helpers ---------- */
+
+.hover-glow:hover {
+  box-shadow: 0 0 10px var(--color-accent);
+  transition: box-shadow var(--transition-duration-medium) var(--transition-ease);
+}
+
+.hover-brighten:hover {
+  filter: brightness(1.2);
+  transition: filter var(--transition-duration-medium) var(--transition-ease);
+}
+
+.hover-dim:hover {
+  filter: brightness(0.8);
+  transition: filter var(--transition-duration-medium) var(--transition-ease);
+}

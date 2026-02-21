@@ -1,0 +1,57 @@
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--color-dark);
+    color: var(--color-lightest);
+    border: 1px solid #000000AA;
+    margin: 6px 0;
+    font-size: var(--body-font-size);
+}
+
+/* Table header */
+table thead {
+    background-color: var(--color-darkest);
+    color: var(--color-lightest);
+    font-size: var(--h4-font-size);
+    border-bottom: 1px solid #000000AA;
+}
+
+table th, table td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #00000055;
+}
+
+/* Alternate row colors */
+table tbody tr:nth-child(odd) {
+    background-color: var(--color-darker);
+}
+table tbody tr:nth-child(even) {
+    background-color: var(--color-dark);
+}
+
+/* Hover effect */
+table tbody tr:hover {
+    background-color: var(--color-info-lightest);
+    color: var(--color-dark);
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Table variants (optional, matching your panel system) */
+table.table-primary thead { background-color: var(--color-primary); color: var(--color-dark); }
+table.table-secondary thead { background-color: var(--color-secondary); }
+table.table-success thead { background-color: var(--color-success); }
+table.table-warning thead { background-color: var(--color-warning); }
+table.table-danger thead { background-color: var(--color-danger); }
+table.table-info thead { background-color: var(--color-info); }
+table.table-accent thead { background-color: var(--color-accent); }
+table.table-cta thead { background-color: var(--color-cta); }
+
+/* Optional: Compact version */
+table.table-compact th, 
+table.table-compact td {
+    padding: 4px 8px;
+    font-size: 0.9em;
+}

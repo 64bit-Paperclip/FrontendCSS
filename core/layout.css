@@ -1,0 +1,157 @@
+/* ===================================================
+   Display & Visibility
+=================================================== */
+.visible   { visibility: visible; }
+.invisible { visibility: hidden; }
+
+
+/* ===================================================
+   Position Utilities
+=================================================== */
+
+.pos-static   { position: static; }
+.pos-relative { position: relative; }
+.pos-absolute { position: absolute; }
+.pos-fixed    { position: fixed; }
+.pos-sticky   { position: sticky; }
+
+/* Common inset helpers */
+.top-0    { top: 0; }
+.right-0  { right: 0; }
+.bottom-0 { bottom: 0; }
+.left-0   { left: 0; }
+
+/* ===================================================
+   Sizing Utilities
+=================================================== */
+
+.w-auto  { width: auto; }
+.w-100   { width: 100%; }
+.h-auto  { height: auto; }
+.h-100   { height: 100%; }
+
+.min-w-100 { min-width: 100%; }
+.min-h-100 { min-height: 100%; }
+
+
+.max-w-100 { max-width: 100%; }
+.max-h-100 { max-height: 100%; }
+
+/* ===================================================
+   Display Utilities
+=================================================== */
+
+.d-block     { display: block; }
+.d-inline    { display: inline; }
+.d-inline-block { display: inline-block; }
+.d-flex      { display: flex; }
+.d-grid      { display: grid; }
+.d-none      { display: none; }
+
+/* ===================================================
+   Overflow Utilities
+=================================================== */
+
+.overflow-hidden  { overflow: hidden; }
+.overflow-auto    { overflow: auto; }
+.overflow-scroll  { overflow: scroll; }
+.overflow-visible { overflow: visible; }
+
+/* ===================================================
+   Z-Index Utilities
+=================================================== */
+
+.z-0  { z-index: 0; }
+.z-10 { z-index: 10; }
+.z-50 { z-index: 50; }
+.z-100 { z-index: 100; }
+.z-max { z-index: 9999; }
+
+
+/* ===================================================
+   Spacing Utilities
+=================================================== */
+
+/* ---------- Margin ---------- */
+.m-0        { margin: 0; }
+.m-small    { margin: var(--margin-small); }
+.m-medium   { margin: var(--margin-medium); }
+.m-large    { margin: var(--margin-large); }
+
+/* Margin - Top */
+.mt-0       { margin-top: 0; }
+.mt-small   { margin-top: var(--margin-small); }
+.mt-medium  { margin-top: var(--margin-medium); }
+.mt-large   { margin-top: var(--margin-large); }
+
+/* Margin - Right */
+.mr-0       { margin-right: 0; }
+.mr-small   { margin-right: var(--margin-small); }
+.mr-medium  { margin-right: var(--margin-medium); }
+.mr-large   { margin-right: var(--margin-large); }
+
+/* Margin - Bottom */
+.mb-0       { margin-bottom: 0; }
+.mb-small   { margin-bottom: var(--margin-small); }
+.mb-medium  { margin-bottom: var(--margin-medium); }
+.mb-large   { margin-bottom: var(--margin-large); }
+
+/* Margin - Left */
+.ml-0       { margin-left: 0; }
+.ml-small   { margin-left: var(--margin-small); }
+.ml-medium  { margin-left: var(--margin-medium); }
+.ml-large   { margin-left: var(--margin-large); }
+
+/* Margin - Horizontal (X-axis) */
+.mx-0       { margin-left: 0; margin-right: 0; }
+.mx-small   { margin-left: var(--margin-small); margin-right: var(--margin-small); }
+.mx-medium  { margin-left: var(--margin-medium); margin-right: var(--margin-medium); }
+.mx-large   { margin-left: var(--margin-large); margin-right: var(--margin-large); }
+
+/* Margin - Vertical (Y-axis) */
+.my-0       { margin-top: 0; margin-bottom: 0; }
+.my-small   { margin-top: var(--margin-small); margin-bottom: var(--margin-small); }
+.my-medium  { margin-top: var(--margin-medium); margin-bottom: var(--margin-medium); }
+.my-large   { margin-top: var(--margin-large); margin-bottom: var(--margin-large); }
+
+/* ---------- Padding ---------- */
+.p-0        { padding: 0; }
+.p-small    { padding: var(--padding-small); }
+.p-medium   { padding: var(--padding-medium); }
+.p-large    { padding: var(--padding-large); }
+
+/* Padding - Top */
+.pt-0       { padding-top: 0; }
+.pt-small   { padding-top: var(--padding-small); }
+.pt-medium  { padding-top: var(--padding-medium); }
+.pt-large   { padding-top: var(--padding-large); }
+
+/* Padding - Right */
+.pr-0       { padding-right: 0; }
+.pr-small   { padding-right: var(--padding-small); }
+.pr-medium  { padding-right: var(--padding-medium); }
+.pr-large   { padding-right: var(--padding-large); }
+
+/* Padding - Bottom */
+.pb-0       { padding-bottom: 0; }
+.pb-small   { padding-bottom: var(--padding-small); }
+.pb-medium  { padding-bottom: var(--padding-medium); }
+.pb-large   { padding-bottom: var(--padding-large); }
+
+/* Padding - Left */
+.pl-0       { padding-left: 0; }
+.pl-small   { padding-left: var(--padding-small); }
+.pl-medium  { padding-left: var(--padding-medium); }
+.pl-large   { padding-left: var(--padding-large); }
+
+/* Padding - Horizontal (X-axis) */
+.px-0       { padding-left: 0; padding-right: 0; }
+.px-small   { padding-left: var(--padding-small); padding-right: var(--padding-small); }
+.px-medium  { padding-left: var(--padding-medium); padding-right: var(--padding-medium); }
+.px-large   { padding-left: var(--padding-large); padding-right: var(--padding-large); }
+
+/* Padding - Vertical (Y-axis) */
+.py-0       { padding-top: 0; padding-bottom: 0; }
+.py-small   { padding-top: var(--padding-small); padding-bottom: var(--padding-small); }
+.py-medium  { padding-top: var(--padding-medium); padding-bottom: var(--padding-medium); }
+.py-large   { padding-top: var(--padding-large); padding-bottom: var(--padding-large); }

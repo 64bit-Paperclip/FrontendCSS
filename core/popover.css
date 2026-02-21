@@ -1,0 +1,23 @@
+/* Base transition for all popovers */
+[popover] {
+    opacity: 0;
+    transform: translate(-50%, -55%) scale(0.95);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Shown state */
+[popover]:popover-open {
+    opacity: 1;
+    transform: translate(-50%, -60%) scale(1);
+}
+
+/* Optional: backdrop for all popovers */
+[popover]::backdrop {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+    transition: background 0.2s ease;
+}
+
+[popover]:not(:popover-open) {
+    pointer-events: none !important;
+}

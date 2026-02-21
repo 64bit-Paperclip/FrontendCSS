@@ -1,0 +1,41 @@
+
+.card{
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    
+}
+
+.card > .header{
+    display:flex;
+    flex-direction:row;
+    flex-grow:1;
+    gap:10px;
+    align-items: center;
+    padding:10px 20px;
+    background-color:#00000033;
+    font-size: var(--h4-font-size);
+    
+}
+
+.card > .footer{
+    display:flex;
+    flex-direction:row;
+    flex-grow:1;
+    gap:10px;
+    align-items: center;
+    padding:10px 20px;
+    background-color:#00000033;
+    
+}
+
+.card > .content
+{
+    display:flex;
+    flex-direction:column;
+    padding:10px 20px;
+}
+
+
+
+

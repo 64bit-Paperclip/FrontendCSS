@@ -1,0 +1,26 @@
+/* Form */
+.form {
+  font-family: var(--form-font-family);
+  font-size: var(--form-font-size);
+  color: var(--form-txt-color);
+  background-color: var(--form-bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-medium);
+  padding: var(--padding-medium);
+  border-radius: var(--border-radius-default, var(--radius-small));
+}
+
+.form-group {
+    display: flex;
+    flex-direction:column;
+    gap: var(--gap-small);
+}
+
+.form-group.col {
+    flex-direction:column;
+}
+.form-group.row {
+    flex-direction:row;
+}
+

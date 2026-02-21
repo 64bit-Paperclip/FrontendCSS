@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: var(--default-font-family);
+    font-size: var(--default-font-size);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    
+    font-family: var(--page-font-family);
+    font-size: var(--page-font-size);
+    background-color: var(--page-bg-color);
+    color: var(--page-txt-color);
+}
+
+
+body a{
+    color: var(--page-link-color);
+    text-decoration: var(--page-link-decoration);
+}
+
+body a:hover{
+    color: var(--page-link-h-color);
+    text-decoration: var(--page-link-h-decoration);
+}
+
+
+body > header{
+    font-family: var(--header-font-family);
+    font-size: var(--header-font-size);
+    background-color: var(--header-bg-color);
+    color: var(--header-txt-color);
+    min-height:var(--header-height);
+    height:var(--header-height);
+    max-height:var(--header-height);
+    
+}
+
+body > header a{
+    color: var(--header-link-color);
+    text-decoration: var(--header-link-decoration);
+}
+
+body > header a:hover{
+    color: var(--header-link-h-color);
+    text-decoration: var(--header-link-h-decoration);
+}
+
+
+
+body > content{
+    font-family: var(--content-font-family);
+    font-size: var(--content-font-size);
+    background-color: var(--content-bg-color);
+    color: var(--content-txt-color);
+}
+
+body > content a{
+    color: var(--content-link-color);
+    text-decoration: var(--content-link-h-decoration);
+}
+
+body > content a:hover{
+    color: var(--content-link-h-color);
+    text-decoration: var(--content-link-h-decoration);
+}
+
+body > content > section{
+    
+}
+
+
+
+body > footer{
+    font-family: var(--footer-font-family);
+    font-size: var(--footer-font-size);
+    background-color: var(--footer-bg-color);
+    color: var(--content-txt-color);
+}
+
+body > footer a{
+    color: var(--footer-link-color);
+    text-decoration: var(--footer-link-decoration);
+}
+
+body > footer a:hover{
+    color: var(--footer-link-h-color);
+    text-decoration: var(--footer-link-h-decoration);
+}

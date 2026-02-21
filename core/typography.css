@@ -1,0 +1,188 @@
+        
+        
+/* ===================================================
+   Text Color Utilities
+=================================================== */
+
+/* --- Core Colors --- */
+.txt-primary { color: var(--color-primary); }
+.txt-primary-light { color: var(--color-primary-light); }
+.txt-primary-lighter { color: var(--color-primary-lighter); }
+.txt-primary-lightest { color: var(--color-primary-lightest); }
+.txt-primary-dark { color: var(--color-primary-dark); }
+.txt-primary-darker { color: var(--color-primary-darker); }
+.txt-primary-darkest { color: var(--color-primary-darkest); }
+
+.txt-secondary { color: var(--color-secondary); }
+.txt-secondary-light { color: var(--color-secondary-light); }
+.txt-secondary-dark { color: var(--color-secondary-dark); }
+
+.txt-tertiary { color: var(--color-tertiary); }
+.txt-tertiary-light { color: var(--color-tertiary-light); }
+.txt-tertiary-dark { color: var(--color-tertiary-dark); }
+
+.txt-accent { color: var(--color-accent); }
+.txt-accent-light { color: var(--color-accent-light); }
+.txt-accent-dark { color: var(--color-accent-dark); }
+
+.txt-light { color: var(--color-light); }
+.txt-lighter { color: var(--color-lighter); }
+.txt-lightest { color: var(--color-lightest); }
+
+.txt-dark { color: var(--color-dark); }
+.txt-darker { color: var(--color-darker); }
+.txt-darkest { color: var(--color-darkest); }
+
+/* --- Info --- */
+.txt-info { color: var(--color-info); }
+.txt-info-light { color: var(--color-info-light); }
+.txt-info-lighter { color: var(--color-info-lighter); }
+.txt-info-lightest { color: var(--color-info-lightest); }
+.txt-info-dark { color: var(--color-info-dark); }
+.txt-info-darker { color: var(--color-info-darker); }
+.txt-info-darkest { color: var(--color-info-darkest); }
+
+/* --- Success --- */
+.txt-success { color: var(--color-success); }
+.txt-success-light { color: var(--color-success-light); }
+.txt-success-lighter { color: var(--color-success-lighter); }
+.txt-success-dark { color: var(--color-success-dark); }
+.txt-success-darker { color: var(--color-success-darker); }
+
+/* --- Warning --- */
+.txt-warning { color: var(--color-warning); }
+.txt-warning-light { color: var(--color-warning-light); }
+.txt-warning-lighter { color: var(--color-warning-lighter); }
+.txt-warning-dark { color: var(--color-warning-dark); }
+.txt-warning-darker { color: var(--color-warning-darker); }
+
+/* --- Danger --- */
+.txt-danger { color: var(--color-danger); }
+.txt-danger-light { color: var(--color-danger-light); }
+.txt-danger-lighter { color: var(--color-danger-lighter); }
+.txt-danger-dark { color: var(--color-danger-dark); }
+.txt-danger-darker { color: var(--color-danger-darker); }
+
+/* --- Call To Action --- */
+.txt-cta { color: var(--color-cta); }
+.txt-cta-light { color: var(--color-cta-light); }
+.txt-cta-lighter { color: var(--color-cta-lighter); }
+.txt-cta-dark { color: var(--color-cta-dark); }
+.txt-cta-darker { color: var(--color-cta-darker); }
+
+
+/* ===================================================
+   Text Size Utilities
+=================================================== */
+
+.txt-small    { font-size: var(--font-size-small); }
+.txt-smaller  { font-size: var(--font-size-smaller); }
+.txt-large    { font-size: var(--font-size-large); }
+.txt-larger   { font-size: var(--font-size-larger); }
+.txt-huge     { font-size: var(--font-size-huge); }
+
+
+.txt-left   { text-align: left; }
+.txt-center { text-align: center; }
+.txt-right  { text-align: right; }
+.txt-justify { text-align: justify; }
+
+
+.txt-uppercase  { text-transform: uppercase; }
+.txt-lowercase  { text-transform: lowercase; }
+.txt-capitalize { text-transform: capitalize; }
+.txt-normalcase { text-transform: none; }
+
+
+.txt-italic     { font-style: italic; }
+.txt-noitalic   { font-style: normal; }
+
+
+.txt-tight   { letter-spacing: -0.5px; }
+.txt-normal  { letter-spacing: normal; }
+.txt-wide    { letter-spacing: 1px; }
+
+.word-tight  { word-spacing: -2px; }
+.word-normal { word-spacing: normal; }
+.word-wide   { word-spacing: 4px; }
+
+.txt-line-tight   { line-height: 1; }
+.txt-line-normal  { line-height: 1.4; }
+.txt-line-relaxed { line-height: 1.8; }
+
+
+.txt-underline     { text-decoration: underline; }
+.txt-line-through  { text-decoration: line-through; }
+.txt-no-decoration { text-decoration: none; }
+
+.txt-nowrap     { white-space: nowrap; }
+.txt-wrap       { white-space: normal; }
+.txt-ellipsis   { 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+        
+/* ===================================================
+   Headings
+=================================================== */
+
+h1 {
+    font-size: var(--h1-font-size);
+    color: var(--h6-color);
+    margin-top: var(--h1-margin-top);
+    margin-bottom: var(--h1-margin-bottom);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+    color: var(--h6-color);
+    margin-top: var(--h2-margin-top);
+    margin-bottom: var(--h2-margin-bottom);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+    color: var(--h6-color);
+    margin-top: var(--h3-margin-top);
+    margin-bottom: var(--h3-margin-bottom);
+}
+
+h4 {
+    font-size: var(--h4-font-size);
+    color: var(--h6-color);
+    margin-top: var(--h4-margin-top);
+    margin-bottom: var(--h4-margin-bottom);
+}
+
+h5 {
+    font-size: var(--h5-font-size);
+    color: var(--h6-color);
+    margin-top: var(--h5-margin-top);
+    margin-bottom: var(--h5-margin-bottom);
+}
+
+h6 {
+    font-size: var(--h6-font-size);
+    color: var(--h6-color);
+    margin-top: var(--h6-margin-top);
+    margin-bottom: var(--h6-margin-bottom);
+}
+
+
+
+
+
+ul,
+ol {
+  list-style-position: inside;
+  padding-left: 1em;
+  margin-left: 0;
+}
+

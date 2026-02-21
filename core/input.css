@@ -1,0 +1,29 @@
+  /* Labels & Inputs */
+
+
+
+
+input,
+select,
+textarea {
+    font-family: var(--input-font-family);
+    font-size: var(--input-font-size);  
+    border: var(--input-border-width) var(--input-border-type) var(--imput-border-color);
+    padding: var(--input-pad-y) var(--input-pad-x);
+    background: var(--input-bg-color);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+      border-color: var(--input-focus-border-color);
+      box-shadow: 0 0 4px var(--input-focus-shadow-color);
+      outline: none;
+  }
+
+textarea {
+      width: 100%;
+      min-height: 120px;
+      resize: vertical;
+}

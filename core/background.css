@@ -1,0 +1,313 @@
+/* ===================================================
+   Background Utilities
+=================================================== */
+.bg-transparent { background-color: transparent; }
+
+.bg-primary   { background-color: var(--color-primary); }
+.bg-secondary { background-color: var(--color-secondary); }
+.bg-tertiary  { background-color: var(--color-tertiary); }
+
+.bg-accent    { background-color: var(--color-accent); }
+.bg-info      { background-color: var(--color-info); }
+.bg-success   { background-color: var(--color-success); }
+.bg-warning   { background-color: var(--color-warning); }
+
+.bg-danger    { background-color: var(--color-danger); }
+.bg-danger-dark     { background-color: var(--color-danger-dark); }
+.bg-danger-darker   { background-color: var(--color-danger-darker); }
+.bg-danger-darkest  { background-color: var(--color-danger-darkest); }
+.bg-cta       { background-color: var(--color-cta); }
+
+.bg-light     { background-color: var(--color-light); }
+.bg-lighter     { background-color: var(--color-lighter); }
+.bg-lightest     { background-color: var(--color-lightest); }
+.bg-dark      { background-color: var(--color-dark); }
+.bg-darker      { background-color: var(--color-darker); }
+.bg-darkest      { background-color: var(--color-darkest); }
+
+
+/* ────────────────────────────────
+   Base Background Grids
+──────────────────────────────── */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-color: #1b1b1b;
+}
+
+.bg-grid-m,
+.bg-grid-medium {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: #1b1b1b;
+}
+
+.bg-grid-sm,
+.bg-grid-small {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 10px 10px;
+  background-color: #1b1b1b;
+}
+
+/* ────────────────────────────────
+   Grid Line Variants (by Color)
+──────────────────────────────── */
+
+/* Primary */
+.bg-grid-line-primary,
+.bg-grid-m-line-primary,
+.bg-grid-sm-line-primary {
+  background-color: #1b1b1b;
+}
+
+.bg-grid-line-primary {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(var(--color-primary) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-primary) 1px, transparent 1px);
+}
+
+.bg-grid-m-line-primary {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(var(--color-primary) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-primary) 1px, transparent 1px);
+}
+
+.bg-grid-sm-line-primary {
+  background-size: 10px 10px;
+  background-image:
+    linear-gradient(var(--color-primary) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-primary) 1px, transparent 1px);
+}
+
+/* Secondary */
+.bg-grid-line-secondary,
+.bg-grid-m-line-secondary,
+.bg-grid-sm-line-secondary {
+  background-color: #1b1b1b;
+}
+
+.bg-grid-line-secondary {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(var(--color-secondary) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-secondary) 1px, transparent 1px);
+}
+
+.bg-grid-m-line-secondary {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(var(--color-secondary) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-secondary) 1px, transparent 1px);
+}
+
+.bg-grid-sm-line-secondary {
+  background-size: 10px 10px;
+  background-image:
+    linear-gradient(var(--color-secondary) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-secondary) 1px, transparent 1px);
+}
+
+/* Tertiary */
+.bg-grid-line-tertiary,
+.bg-grid-m-line-tertiary,
+.bg-grid-sm-line-tertiary {
+  background-color: #1b1b1b;
+}
+
+.bg-grid-line-tertiary {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(var(--color-tertiary) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-tertiary) 1px, transparent 1px);
+}
+
+.bg-grid-m-line-tertiary {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(var(--color-tertiary) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-tertiary) 1px, transparent 1px);
+}
+
+.bg-grid-sm-line-tertiary {
+  background-size: 10px 10px;
+  background-image:
+    linear-gradient(var(--color-tertiary) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-tertiary) 1px, transparent 1px);
+}
+
+
+/* Accent */
+.bg-grid-line-accent,
+.bg-grid-m-line-accent,
+.bg-grid-sm-line-accent {
+  background-color: #1b1b1b;
+}
+
+.bg-grid-line-accent {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(var(--color-accent) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-accent) 1px, transparent 1px);
+}
+
+.bg-grid-m-line-accent {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(var(--color-accent) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-accent) 1px, transparent 1px);
+}
+
+.bg-grid-sm-line-accent {
+  background-size: 10px 10px;
+  background-image:
+    linear-gradient(var(--color-accent) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-accent) 1px, transparent 1px);
+}
+
+/* Info */
+.bg-grid-line-info,
+.bg-grid-m-line-info,
+.bg-grid-sm-line-info {
+  background-color: #1b1b1b;
+}
+
+.bg-grid-line-info {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(var(--color-info) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-info) 1px, transparent 1px);
+}
+
+.bg-grid-m-line-info {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(var(--color-info) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-info) 1px, transparent 1px);
+}
+
+.bg-grid-sm-line-info {
+  background-size: 10px 10px;
+  background-image:
+    linear-gradient(var(--color-info) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-info) 1px, transparent 1px);
+}
+
+/* Success */
+.bg-grid-line-success,
+.bg-grid-m-line-success,
+.bg-grid-sm-line-success {
+  background-color: #1b1b1b;
+}
+
+.bg-grid-line-success {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(var(--color-success) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-success) 1px, transparent 1px);
+}
+
+.bg-grid-m-line-success {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(var(--color-success) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-success) 1px, transparent 1px);
+}
+
+.bg-grid-sm-line-success {
+  background-size: 10px 10px;
+  background-image:
+    linear-gradient(var(--color-success) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-success) 1px, transparent 1px);
+}
+
+/* Warning */
+.bg-grid-line-warning,
+.bg-grid-m-line-warning,
+.bg-grid-sm-line-warning {
+  background-color: #1b1b1b;
+}
+
+.bg-grid-line-warning {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(var(--color-warning) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-warning) 1px, transparent 1px);
+}
+
+.bg-grid-m-line-warning {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(var(--color-warning) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-warning) 1px, transparent 1px);
+}
+
+.bg-grid-sm-line-warning {
+  background-size: 10px 10px;
+  background-image:
+    linear-gradient(var(--color-warning) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-warning) 1px, transparent 1px);
+}
+
+/* Danger */
+.bg-grid-line-danger,
+.bg-grid-m-line-danger,
+.bg-grid-sm-line-danger {
+  background-color: #1b1b1b;
+}
+
+.bg-grid-line-danger {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(var(--color-danger) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-danger) 1px, transparent 1px);
+}
+
+.bg-grid-m-line-danger {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(var(--color-danger) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-danger) 1px, transparent 1px);
+}
+
+.bg-grid-sm-line-danger {
+  background-size: 10px 10px;
+  background-image:
+    linear-gradient(var(--color-danger) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-danger) 1px, transparent 1px);
+}
+
+/* CTA */
+.bg-grid-line-cta,
+.bg-grid-m-line-cta,
+.bg-grid-sm-line-cta {
+  background-color: #1b1b1b;
+}
+
+.bg-grid-line-cta {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(var(--color-cta) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-cta) 1px, transparent 1px);
+}
+
+.bg-grid-m-line-cta {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(var(--color-cta) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-cta) 1px, transparent 1px);
+}
+
+.bg-grid-sm-line-cta {
+  background-size: 10px 10px;
+  background-image:
+    linear-gradient(var(--color-cta) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-cta) 1px, transparent 1px);
+}

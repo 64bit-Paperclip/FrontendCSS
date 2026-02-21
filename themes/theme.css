@@ -1,0 +1,95 @@
+:root {
+
+            --color-primary: #2c3e50;
+            --color-primary-light: #2c3e50;
+            --color-primary-dark: #2c3e50;
+
+            --color-secondary: #e67e22;
+            --color-secondary-light: #e67e22;
+            --color-secondary-dark: #e67e22;
+
+            --color-tertiary: #3498db;
+            --color-tertiary-light: #3498db;
+            --color-tertiary-dark: #3498db;
+            
+            --color-light: #ffffff;
+
+            --color-dark: #ffffff;
+
+
+            --page-font-family: Arial, Helvetica, sans-serif;
+            --page-bg-color: #f8fafc;
+            --page-text-color: #333333;
+            --page-link-color: #3498db;
+
+            --bg-default: #f8fafc;
+            --bg-accent: #fef9f6;
+            --bg-light: #ffffff;
+            --bg-dark:  #cccccc;
+
+            
+            /* Text Colors */
+
+
+            --header-height:60px;
+            --header-bg-color: #222222;
+            --header-text-color: #fff;
+            
+            
+
+
+            
+
+
+            --button-default:#e67e22;
+            --button-light:#eba05e;
+            --button-dark:#d35400;
+
+            --default-border-style:solid;
+            --default-border-width:1px;
+            --default-border-color: #cccccc;
+
+            
+            --bg-light-alt: #f8fafc;
+            
+            --bg-dark: #1a252f;
+            
+            --bg-hero-overlay: rgba(0, 0, 0, 0.6);
+            
+
+            /* Text Colors */
+            --text-main: #333;
+            --text-muted: #555;
+            --text-light: #fff;
+
+            /* Borders & Shadows */
+            --border-light: #eee;
+            --shadow-small: 0 2px 5px rgba(0, 0, 0, 0.05);
+            --shadow-medium: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+            /* Typography */
+            --font-family: Arial, Helvetica, sans-serif;
+            --heading-size: 2rem;
+            --subheading-size: 1.2rem;
+            --body-size: 1rem;
+
+            /* Layout & Spacing */
+            
+            --radius-small: 5px;
+            --radius-medium: 8px;
+            --radius-large: 16px;
+
+            --border-radius-default: 5px;
+
+            --padding-section: 60px;
+
+            
+
+            --gap-small: 10px;
+            --gap-medium: 20px;
+            --gap-large: 30px;
+
+            --margin-small: 10px;
+            --margin-medium: 20px;
+            --margin-large: 30px;
+        }

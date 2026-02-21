@@ -1,0 +1,27 @@
+
+
+code {
+  
+  background-color: #1e1e1e; /* dark background like code editors */
+  color: #dcdcdc; /* light text */
+  font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto; /* allows horizontal scroll for long lines */
+  border: 1px solid #333;
+  white-space: pre;
+  margin: var(--margin-medium) 0;
+  max-width:100%;
+}
+
+/* Inline code example (if used inside text) */
+.code.inline {
+  display: inline;
+  background-color: #2d2d2d;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #ffcc66;
+}
