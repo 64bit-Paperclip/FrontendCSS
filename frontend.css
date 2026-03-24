@@ -56,8 +56,6 @@ body > header a:hover{
     text-decoration: var(--header-link-h-decoration);
 }
 
-
-
 body > content{
     font-family: var(--content-font-family);
     font-size: var(--content-font-size);
@@ -2003,6 +2001,55 @@ code {
     color: var(--color-dark);
 } 
 /* ==== END components\panel.css ==== */ 
+ 
+/* ==== START components\tab.css ==== */ 
+ 
+/* ===================================================
+   Tab Styles
+   =================================================== */
+
+.tab-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ffffff0d;
+}
+
+body .tab-container .tab {
+    padding: 6px 14px;
+    margin-bottom: -1px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-bottom: none;
+    color: var(--color-light);
+    font-size: var(--txt-small);
+    transition: color 0.15s, border-color 0.15s;
+}
+
+body .tab-container .tab:hover {
+    color: var(--txt-lightest);
+}
+
+body .tab-container .tab.active {
+    border-color: #ffffff0d;
+    border-bottom: 2px solid var(--color-primary);
+    color: var(--txt-lightest);
+}
+
+body .tab-container .tab.disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+ 
+/* ==== END components\tab.css ==== */ 
  
 /* ==== START components\table.css ==== */ 
  

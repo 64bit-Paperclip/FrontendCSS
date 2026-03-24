@@ -54,8 +54,6 @@ body > header a:hover{
     text-decoration: var(--header-link-h-decoration);
 }
 
-
-
 body > content{
     font-family: var(--content-font-family);
     font-size: var(--content-font-size);

@@ -24,6 +24,7 @@ components\card.css ^
 components\code.css ^
 components\list.css ^
 components\panel.css ^
+components\tab.css ^
 components\table.css ^
 components\toolbar.css
 :: ===================================================
