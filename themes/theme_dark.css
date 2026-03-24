@@ -314,6 +314,7 @@
 --margin-large: 30px;
 
 /* --- Gap --- */
+--gap-tiny:5px;
 --gap-small: 10px;
 --gap-medium: 20px;
 --gap-large: 40px;

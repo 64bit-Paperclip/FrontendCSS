@@ -92,6 +92,7 @@
 =================================================== */
 
 .gap-0       { gap: 0; }
+.gap-tiny    { gap: var(--gap-tiny); }
 .gap-small   { gap: var(--gap-small); }
 .gap-medium  { gap: var(--gap-medium); }
 .gap-large   { gap: var(--gap-large); }
@@ -100,12 +101,18 @@
 
 /* Row Gap (vertical spacing only) */
 .row-gap-0       { row-gap: 0; }
+.row-gap-tiny    { row-gap: var(--gap-tiny); }
 .row-gap-small   { row-gap: var(--gap-small); }
 .row-gap-medium  { row-gap: var(--gap-medium); }
 .row-gap-large   { row-gap: var(--gap-large); }
+.row-gap-larger  { row-gap: var(--gap-larger); }
+.row-gap-huge    { row-gap: var(--gap-huge); }
 
 /* Column Gap (horizontal spacing only) */
 .col-gap-0       { column-gap: 0; }
+.col-gap-tiny    { column-gap: var(--gap-tiny); }
 .col-gap-small   { column-gap: var(--gap-small); }
 .col-gap-medium  { column-gap: var(--gap-medium); }
 .col-gap-large   { column-gap: var(--gap-large); }
+.col-gap-larger  { column-gap: var(--gap-larger); }
+.col-gap-huge    { column-gap: var(--gap-huge); }
