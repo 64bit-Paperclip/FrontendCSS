@@ -1,7 +1,6 @@
 /* ===================================================
    Tab Styles
    =================================================== */
-
 .tab-container {
     display: flex;
     flex-direction: row;
@@ -16,17 +15,22 @@ body .tab-container .tab {
     border-bottom: none;
     color: var(--color-light);
     font-size: var(--txt-small);
-    transition: color 0.15s, border-color 0.15s;
+    transition: color 0.2s ease, background-color 0.2s ease, letter-spacing 0.2s ease;
+    text-decoration: none;
 }
 
 body .tab-container .tab:hover {
-    color: var(--txt-lightest);
+    color: var(--color-lightest);
+    background-color: #ffffff05;
+    letter-spacing: 0.3px;
 }
 
 body .tab-container .tab.active {
+    background-color: #FFFFFF08;
     border-color: #ffffff0d;
     border-bottom: 2px solid var(--color-primary);
-    color: var(--txt-lightest);
+    color: var(--color-lightest);
+    letter-spacing: 0.3px;
 }
 
 body .tab-container .tab.disabled {
@@ -36,9 +40,28 @@ body .tab-container .tab.disabled {
 }
 
 .tab-content {
+    background-color: #FFFFFF08;
+    padding: var(--padding-medium);
     display: none;
+    border: 1px solid #FFFFFF1d;
+    border-top-width: 0px;
+    border-bottom-right-radius: var(--radius-small);
+    border-bottom-left-radius: var(--radius-small);
 }
 
 .tab-content.active {
     display: block;
+    animation: tabFadeIn 0.2s ease forwards;
+}
+
+@keyframes tabFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
